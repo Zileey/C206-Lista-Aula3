@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio2 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); // Abrindo o scanner
         System.out.println("Entre com o número de Zumbis mortos nas últimas 3 partidas");
         int numZumbi1 = entrada.nextInt();
         int numZumbi2 = entrada.nextInt();
@@ -16,6 +16,8 @@ public class Exercicio2 {
 
         System.out.println("A soma das últimas partidas é de: " + soma);
         System.out.println("A média é de: " + media);
+
+        entrada.close(); // Importante sempre fechar o Scanner
 
 
     }
