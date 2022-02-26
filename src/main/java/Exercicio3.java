@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(); // Scanner para entrada de dados
+        Scanner sc = new Scanner(System.in); // Scanner para entrada de dados
         int op; // Opção de número de alunos
         System.out.println("Digite o número de alunos matriculados:");
         op = sc.nextInt();
